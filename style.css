@@ -1,0 +1,139 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    min-height: 100vh;
+}
+
+
+header {
+    text-align: center;
+    padding: 40px 20px 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #555;
+}
+
+
+.toolbox {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.tool {
+    background-color: white;
+
+    width: 300px;
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.tool h2 {
+    font-size: 20px;
+}
+
+
+.tool input {
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-size: 16px;
+}
+
+
+.tool button {
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #222;
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+
+.tool button:hover {
+    opacity: 0.8;
+}
+
+
+.tool p {
+    min-height: 25px;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: #666;
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+        padding-top: 30px;
+    }
+
+    .toolbox {
+        width: 95%;
+    }
+
+    .tool {
+        width: 100%;
+    }
+}
+
+.about {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 1.6;
+}

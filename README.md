@@ -2,7 +2,7 @@
 
 A single-page collection of small interactive logic tools built with vanilla JavaScript — leap year checker, palindrome checker, grade calculator, FizzBuzz variant, number pattern printer, and more.
 
-**Live demo:** [add your live link here]
+**Live demo:** []
 
 ![screenshot](./screenshot.png)
 
